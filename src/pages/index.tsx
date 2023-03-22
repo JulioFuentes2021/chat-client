@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import MessageCard from "../components/MessageCard/Index";
 import SearchInput from "../components/SeachInput/Index";
 import ConversationCountAndAddContact from "../components/ConversationCountAndAddContact/Index";
+import ContactInfo from "../components/ConversionHeader/Index";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -17,9 +18,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <ConversationCountAndAddContact />
+        <ContactInfo />
+        {/* <ConversationCountAndAddContact />
         <SearchInput />
-        <MessageCard />
+        <MessageCard /> */}
       </main>
     </>
   );
