@@ -19,9 +19,9 @@ export default function Home() {
       </Head>
       <main>
         <ContactInfo />
-        {/* <ConversationCountAndAddContact />
+        <ConversationCountAndAddContact />
         <SearchInput />
-        <MessageCard /> */}
+        <MessageCard />
       </main>
     </>
   );
