@@ -7,6 +7,7 @@ import SearchInput from "../components/SeachInput/Index";
 import ConversationCountAndAddContact from "../components/ConversationCountAndAddContact/Index";
 import ContactInfo from "../components/ConversionHeader/Index";
 import Message from "../components/MessagesInConversation/Index";
+import SendMessageInput from "../components/SendMessageInput/Index";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <SearchInput />
         <MessageCard />
         <Message />
+        <SendMessageInput />
       </main>
     </>
   );
