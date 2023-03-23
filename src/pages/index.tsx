@@ -19,13 +19,33 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <ContactInfo />
-        <ConversationCountAndAddContact />
-        <SearchInput />
-        <MessageCard />
-        <Message />
-        <SendMessageInput />
+      <main className="grid lg:grid-cols-3">
+        <div className="col-span-2 lg:col-span-1 border-r border-gray-300 lg:h-screen lg:overflow-y-scroll ">
+          <ConversationCountAndAddContact />
+          <SearchInput />
+          <div className="">
+            <MessageCard />
+            <MessageCard />
+            <MessageCard />
+            <MessageCard />
+            <MessageCard />
+          </div>
+        </div>
+        <div className="hidden lg:col-span-2 w-full lg:flex lg:flex-col lg:justify-between lg:h-screen">
+          <div className="border-b border-gray-300 w-full">
+            <ContactInfo />
+          </div>
+          <div className="h-[60%] overflow-y-scroll grow p-3 flex flex-col gap-10">
+            <Message />
+            <Message />
+            <Message />
+            <Message />
+            <Message />
+          </div>
+          <div className="p-3">
+            <SendMessageInput />
+          </div>
+        </div>
       </main>
     </>
   );

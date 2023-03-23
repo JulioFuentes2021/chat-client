@@ -2,7 +2,7 @@ import React from "react";
 
 const Index = () => {
   return (
-    <section>
+    <section className="my-5">
       <div className="flex p-3 m-1 gap-5 border border-gray-400 rounded-lg">
         <span>
           <svg

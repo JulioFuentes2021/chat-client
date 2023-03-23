@@ -3,7 +3,7 @@ import ContactInfo from './ContactInfo'
 
 const Index = () => {
   return (
-    <div>
+    <div className='w-full border-b border-gray-300 p-3'>
         <ContactInfo />
     </div>
   )

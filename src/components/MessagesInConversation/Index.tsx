@@ -9,7 +9,7 @@ const Index = () => {
       <div className="flex">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1MGp9k4ydFlS7ilVaLvZJfXQzyvp049lb8w&usqp=CAU"
-          className="w-16 h-16 rounded-full"
+          className="w-8 h-8 rounded-full"
           alt=""
         />
         <MessageContainer WhoIsIt>
